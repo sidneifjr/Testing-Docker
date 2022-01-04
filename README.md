@@ -1,20 +1,20 @@
-# Testing docker!
+# Testing docker
 
 ### Dev:
 
-When running for the first time:
+- When running for the first time:
 
 ```
 docker-compose
 ```
 
-Then:
+- Then:
 
 ```
 docker-compose up
 ```
 
-- In case of changes to the DockerFile or docker-compose, run:
+- If you apply changes to the DockerFile or docker-compose:
 
 ```
 docker-compose up --build
@@ -22,5 +22,6 @@ docker-compose up --build
 
 ### Prod
 
+```
 docker-compose run node yarn build
-
+```
