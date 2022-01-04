@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Testing docker",
   "author": "Sidnei Farias Júnior",
-  "main": "index.js",
   "scripts": {
-    "dev": "yarn parcel index.html --port 9000",
-    "build": "yarn parcel build frontend --no-content-hash --out-dir build --public-url ./"
+    "dev": "parcel ./app/index.html --port 9000",
+    "dev-lazy": "parcel ./app/index.html --port 9000 --lazy",
+    "build": "parcel build ./app/index.html"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "keywords": [

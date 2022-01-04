@@ -1,15 +1,25 @@
-Testing docker!
+# Testing docker!
 
-- dev:
+### Dev:
 
-yarn parcel index.html
+When running for the first time:
 
-npx parcel index.html
+```
+    docker-compose
+```
 
-**or**
+Then:
 
+```
 docker-compose up
+```
 
-Para aplicar alterações no dockerFile ou docker-compose, usar:
+- In case of changes to the DockerFile or docker-compose, run:
 
+```
 docker-compose up --build
+```
+
+### Prod
+
+
