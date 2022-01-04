@@ -1,8 +1,8 @@
 # Testing docker
 
-Node: 16.13
-npm: 8.1.2
-Task runner: Parcel (for demonstration purposes)
+- Node: 16.13
+- npm: 8.1.2
+- Task runner: Parcel (for demonstration purposes)
 
 ### Dev:
 
