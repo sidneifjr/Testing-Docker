@@ -5,7 +5,7 @@
 When running for the first time:
 
 ```
-    docker-compose
+docker-compose
 ```
 
 Then:
