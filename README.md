@@ -4,7 +4,7 @@
 - npm: 8.1.2
 - Task runner: Parcel (for demonstration purposes)
 
-### Dev:
+### Development:
 
 - When running for the first time:
 
@@ -19,7 +19,7 @@ docker-compose up
 docker-compose up --build
 ```
 
-### Prod
+### Production:
 
 ```
 docker-compose run node yarn build
