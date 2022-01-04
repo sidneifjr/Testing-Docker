@@ -1,0 +1,20 @@
+{
+  "name": "testing-docker",
+  "version": "1.0.0",
+  "description": "Testing docker",
+  "author": "Sidnei Farias Júnior",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn parcel index.html --port 9000",
+    "build": "yarn parcel build frontend --no-content-hash --out-dir build --public-url ./"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "keywords": [
+    "docker", "parcel"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "yarn": "^1.22.17",
+    "parcel": "^2.0.1"
+  }
+}
