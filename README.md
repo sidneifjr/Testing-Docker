@@ -22,4 +22,5 @@ docker-compose up --build
 
 ### Prod
 
+docker-compose run node yarn build
 
